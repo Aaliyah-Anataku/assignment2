@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media 2</title>
+</head>
+<body>
+    <header>
+        <nav aria-labelledby="primary-navigation">
+            <ol>
+                <li>
+                    <a href="#audio"> < Audio > </a>
+                </li>
+                <li>
+                    <a href="#video"> < Video > </a>
+                </li>
+                <li>
+                    <a href="#iframe"> < Iframe > </a>
+                </li>
+                <li>
+                    <a href="#embed"> < Embed > </a>
+                </li>
+                <li>
+                    <a href="#source"> < Source > </a>
+                </li>
+                <li>
+                    <a href="#track"> < Track > </a>
+                </li>
+                <li>
+                    <a href="#picture"> < Picture > </a>
+                </li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <article id="audio">
+            <section>
+                <h1><em>Audio</em></h1>
+                <audio controls src="./assets/Alec_Benjamin_-_Let_Me_Down_Slowly_(Lyrics)(360p).mp3"></audio>
+            </section>
+        </article>
+    
+
+        <article id="video">
+            <section>
+                <h1><em>Video</em></h1>
+                <video controls src="./assets/OMIO5388.MOV"></video>
+                </video>
+            </section>
+        </article>
+
+        <article id="iframe">
+            <section>
+                <h1><em>Iframe</em></h1>
+                <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450"></iframe>
+            </section>
+        </article>
+
+        <article id="embed">
+            <section>
+                <h1><em>Embed element</em></h1>
+                <embed src="https://www.youtube.com/embed/GgSOgGR1XjE?si=4zIFRdZOPR_iCXTG" title="YouTube video player" width="300px" height="300px">
+            </section>
+        </article>
+        
+        <article id="source">
+            <section>
+                <h1><em>Source</em></h1>
+                <video controls>
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                </video>
+            </section>
+        </article>
+
+        <article id="track">
+            <section>
+                <h1><em>Track element</em></h1>
+                <video controls>
+                    <source src="./assets/OMIO5388.MOV">
+                    <track src="./assets/subtitles.vtt" default kind="subtitles" srclang="en" label="english">
+                </video>
+            </section>
+        </article>
+
+        <article id="picture">
+            <section>
+                <h1><em></em></h1>
+                <img src="https://cdn.wallpapersafari.com/42/73/6YBpLv.jpg" alt="a flower">
+            </section>
+        </article>
+    </main>
+    
+</body>
+</html>
